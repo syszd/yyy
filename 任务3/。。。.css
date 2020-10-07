@@ -1,0 +1,63 @@
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div,dl,dt,dd,input{padding: 0;margin: 0;}
+body{font-size: 14px;}
+img{border: none;}
+li{list-style: none;}
+a{text-decoration: none;}
+input,select,textarea{outline: none;}
+textarea{resize: none;}
+
+.clearfix:after{content: "";display: block;clear: both;}
+.clearfix{
+   overflow:auto;
+   zoom: 1; 
+}
+.fl{
+    float:left ;
+}
+.fr{
+    float: right;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+body{
+    background: #fff;
+}
+.container{
+    background: #eee;
+    border: solid 1px #999;
+    padding: 20px;
+    margin:20px;
+   
+    overflow:auto;
+    min-width: 700px;
+}
+.left,.mid,.right{
+    background: #fff;
+    border: 1px #999999 solid;
+}
+.left{
+    width: 200px;
+    padding: 20px;
+}
+.team-name{
+    margin-left: 20px;
+    }
+.logo{
+    width: 80px;
+    height: 80px;
+}
+.mid{
+    margin: 0px 140px auto 220px; 
+    padding: 20px;
+}
+.right{  
+    width:120px;
+    padding: 20px 20px 0px;
+}
+.person-logo{
+    margin-bottom: 20px;
+}

@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.w {
+    width: 1200px;
+    margin: auto;
+}
+.header {
+    height: 42px;
+    background-color: pink;
+    margin: 30px auto;
+}
+.nav {
+    float: left;
+}
+.nav ul li {
+    float: left;
+}
+p {
+    text-indent: 2em;
+}
+.wraper {
+    display: table;
+    width: 1000px;
+}
+.left {
+    display: table-cell;
+    width:5000px;
+}
+.right {
+    width: 100px;
+    height: 150px;
+}
+.images{
+    overflow: auto;
+    zoom: 1;
+}
+.iss-img{
+    width: 122px;
+    height: 126px;
+    border: solid #999 1px;
+    margin: 20px 20px;
+    float: left;
+}
+.iss-img img{
+    width: 100px;
+    height: 80px;
+    margin: 10px  10px 10px 10px;
+}
+.describe-img{
+    height: 23px;
+    text-align: center;
+    line-height: 30px;
+}
